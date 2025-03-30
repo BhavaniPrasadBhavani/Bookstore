@@ -32,6 +32,7 @@ A Spring Boot-based REST API for managing books and users with JWT authenticatio
 
 4. IDE (Optional):  
    - IntelliJ IDEA (recommended) or VS Code.
+  
 
 ---
 5.Set Env variables accordingly for Jdk, Maven, Springboot
@@ -55,6 +56,15 @@ docker-compose up -d postgres
 docker ps
 
 ```
+
+use the springboot as language and download the dependencies 
+--Spring Data JPA
+--Spring Web
+--Validation
+--PostGre SQL
+--lombok
+--JWT
+
 Setup & Configuration ⚙️
 1. Database Configuration
 The database settings are pre-configured in src/main/resources/application.properties:
